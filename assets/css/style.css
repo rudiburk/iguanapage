@@ -1,7 +1,9 @@
 * {
     border: 0;
     margin: 0;
+    width: 1280px;
 }
+
 body{
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
@@ -10,14 +12,12 @@ body{
     background-color: #000000;
     color: #FFFFFF;
 }
-
 .header {
     width: 1280px;
     height: 73px;
     float: left;
     background-color: #000000;
 }
-
 h1 {
     font-size: 50px;
 	font-weight: 500;
@@ -30,13 +30,11 @@ width: 1280px;
 height: 727px;
 float: left;
 }
-
-.wrapper {
+.desc-section {
     width: 1280px;
     height: 348px;
     float: left;
 }
-
 .text1 {
     width: 475px;
     height: 197px;
@@ -45,7 +43,6 @@ float: left;
     left: 150px;
     font-size: 16px;
 }
-
 .image1 {
     width: 399px;
     height: 237px;
@@ -53,22 +50,19 @@ float: left;
     top: 845px;
     left: 731px;
 }
-
-.icons-section {
+.icon-section {
     float: left;
 	background-color: #1E1A13;
 	text-align: center;
     width: 1280px;
     height: 348px;
 }
-
-.icons-section h2 {
+.icon-section h2 {
 	font-weight: 500;
 	font-size: 40px;
 	margin-top: 75px;
     font-style: medium;
 }
-
 .icons {
     width: 1280px;
     height: 348px;
@@ -76,23 +70,19 @@ float: left;
     display: flex;
 	justify-content: center;
 }
-
 .icons i {
     width: 200px;
     font-size: 48px;
     margin-top: -30px;
-
 }
 .conjunto {
     padding-top: 50px;
     display: inline-block;
     margin: 50px;
 }
-
 .icons p {
     font-size: 25px;
 }
-
 .images {
     width: 1280px;
     height: 348px;
@@ -100,29 +90,26 @@ float: left;
     display: flex;
 	justify-content: center;
 }
-
 .alinear2{
     padding: 73px 8px;
 	width: 316px;
 	height: 202px;
 }
-
-footer a {
-	text-decoration: none;
-	color: #FFFFFF;   
-}
-
-footer p {
-    margin-top: 39px;
-    font-size: 20px;
-}
-
-footer {   
+.footer {   
 background-color: #1e1a13;
 width: 1280px;
 height: 102px;
 float: left;
 text-align: center;
 }
+footer a {
+	text-decoration: none;
+	color: #FFFFFF;   
+}
+footer p {
+    margin-top: 39px;
+    font-size: 20px;
+}
+
 
 
